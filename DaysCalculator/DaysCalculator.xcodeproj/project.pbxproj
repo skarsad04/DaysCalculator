@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		629DF6E625E2F3FB008F7CFB /* DateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629DF6E525E2F3FB008F7CFB /* DateViewModel.swift */; };
+		629DF6E925E2FBF6008F7CFB /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629DF6E825E2FBF6008F7CFB /* Utility.swift */; };
+		629DF6EB25E305E1008F7CFB /* DateValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 629DF6EA25E305E1008F7CFB /* DateValidator.swift */; };
+		62EDA86025E2E39B00F3D40C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EDA85F25E2E39B00F3D40C /* AppDelegate.swift */; };
+		62EDA86225E2E39B00F3D40C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EDA86125E2E39B00F3D40C /* SceneDelegate.swift */; };
+		62EDA86425E2E39B00F3D40C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EDA86325E2E39B00F3D40C /* ViewController.swift */; };
+		62EDA86725E2E39B00F3D40C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62EDA86525E2E39B00F3D40C /* Main.storyboard */; };
+		62EDA86925E2E39D00F3D40C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62EDA86825E2E39D00F3D40C /* Assets.xcassets */; };
+		62EDA86C25E2E39D00F3D40C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62EDA86A25E2E39D00F3D40C /* LaunchScreen.storyboard */; };
+		62EDA87725E2E39E00F3D40C /* DaysCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EDA87625E2E39E00F3D40C /* DaysCalculatorTests.swift */; };
+		62EDA88225E2E39E00F3D40C /* DaysCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EDA88125E2E39E00F3D40C /* DaysCalculatorUITests.swift */; };
+		62EDA89125E2E6C700F3D40C /* DateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62EDA89025E2E6C700F3D40C /* DateView.swift */; };
+		62EDA89325E2E6DA00F3D40C /* DateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62EDA89225E2E6DA00F3D40C /* DateView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62EDA87325E2E39E00F3D40C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62EDA85425E2E39B00F3D40C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62EDA85B25E2E39B00F3D40C;
+			remoteInfo = DaysCalculator;
+		};
+		62EDA87E25E2E39E00F3D40C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62EDA85425E2E39B00F3D40C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62EDA85B25E2E39B00F3D40C;
+			remoteInfo = DaysCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		629DF6E525E2F3FB008F7CFB /* DateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateViewModel.swift; sourceTree = "<group>"; };
+		629DF6E825E2FBF6008F7CFB /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		629DF6EA25E305E1008F7CFB /* DateValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValidator.swift; sourceTree = "<group>"; };
+		62EDA85C25E2E39B00F3D40C /* DaysCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaysCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62EDA85F25E2E39B00F3D40C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		62EDA86125E2E39B00F3D40C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		62EDA86325E2E39B00F3D40C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		62EDA86625E2E39B00F3D40C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		62EDA86825E2E39D00F3D40C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62EDA86B25E2E39D00F3D40C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		62EDA86D25E2E39D00F3D40C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62EDA87225E2E39E00F3D40C /* DaysCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaysCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62EDA87625E2E39E00F3D40C /* DaysCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysCalculatorTests.swift; sourceTree = "<group>"; };
+		62EDA87825E2E39E00F3D40C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62EDA87D25E2E39E00F3D40C /* DaysCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DaysCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		62EDA88125E2E39E00F3D40C /* DaysCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysCalculatorUITests.swift; sourceTree = "<group>"; };
+		62EDA88325E2E39E00F3D40C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62EDA89025E2E6C700F3D40C /* DateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateView.swift; sourceTree = "<group>"; };
+		62EDA89225E2E6DA00F3D40C /* DateView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DateView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62EDA85925E2E39B00F3D40C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62EDA86F25E2E39E00F3D40C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62EDA87A25E2E39E00F3D40C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		629DF6E425E2F3DA008F7CFB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				629DF6E525E2F3FB008F7CFB /* DateViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		629DF6E725E2FBE5008F7CFB /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				629DF6E825E2FBF6008F7CFB /* Utility.swift */,
+				629DF6EA25E305E1008F7CFB /* DateValidator.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		62EDA85325E2E39B00F3D40C = {
+			isa = PBXGroup;
+			children = (
+				62EDA85E25E2E39B00F3D40C /* DaysCalculator */,
+				62EDA87525E2E39E00F3D40C /* DaysCalculatorTests */,
+				62EDA88025E2E39E00F3D40C /* DaysCalculatorUITests */,
+				62EDA85D25E2E39B00F3D40C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62EDA85D25E2E39B00F3D40C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62EDA85C25E2E39B00F3D40C /* DaysCalculator.app */,
+				62EDA87225E2E39E00F3D40C /* DaysCalculatorTests.xctest */,
+				62EDA87D25E2E39E00F3D40C /* DaysCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62EDA85E25E2E39B00F3D40C /* DaysCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				629DF6E725E2FBE5008F7CFB /* Common */,
+				629DF6E425E2F3DA008F7CFB /* ViewModels */,
+				62EDA88F25E2E6A500F3D40C /* Views */,
+				62EDA85F25E2E39B00F3D40C /* AppDelegate.swift */,
+				62EDA86125E2E39B00F3D40C /* SceneDelegate.swift */,
+				62EDA86325E2E39B00F3D40C /* ViewController.swift */,
+				62EDA86525E2E39B00F3D40C /* Main.storyboard */,
+				62EDA86825E2E39D00F3D40C /* Assets.xcassets */,
+				62EDA86A25E2E39D00F3D40C /* LaunchScreen.storyboard */,
+				62EDA86D25E2E39D00F3D40C /* Info.plist */,
+			);
+			path = DaysCalculator;
+			sourceTree = "<group>";
+		};
+		62EDA87525E2E39E00F3D40C /* DaysCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				62EDA87625E2E39E00F3D40C /* DaysCalculatorTests.swift */,
+				62EDA87825E2E39E00F3D40C /* Info.plist */,
+			);
+			path = DaysCalculatorTests;
+			sourceTree = "<group>";
+		};
+		62EDA88025E2E39E00F3D40C /* DaysCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62EDA88125E2E39E00F3D40C /* DaysCalculatorUITests.swift */,
+				62EDA88325E2E39E00F3D40C /* Info.plist */,
+			);
+			path = DaysCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		62EDA88F25E2E6A500F3D40C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				62EDA89025E2E6C700F3D40C /* DateView.swift */,
+				62EDA89225E2E6DA00F3D40C /* DateView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62EDA85B25E2E39B00F3D40C /* DaysCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62EDA88625E2E39E00F3D40C /* Build configuration list for PBXNativeTarget "DaysCalculator" */;
+			buildPhases = (
+				62EDA85825E2E39B00F3D40C /* Sources */,
+				62EDA85925E2E39B00F3D40C /* Frameworks */,
+				62EDA85A25E2E39B00F3D40C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DaysCalculator;
+			productName = DaysCalculator;
+			productReference = 62EDA85C25E2E39B00F3D40C /* DaysCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62EDA87125E2E39E00F3D40C /* DaysCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62EDA88925E2E39E00F3D40C /* Build configuration list for PBXNativeTarget "DaysCalculatorTests" */;
+			buildPhases = (
+				62EDA86E25E2E39E00F3D40C /* Sources */,
+				62EDA86F25E2E39E00F3D40C /* Frameworks */,
+				62EDA87025E2E39E00F3D40C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62EDA87425E2E39E00F3D40C /* PBXTargetDependency */,
+			);
+			name = DaysCalculatorTests;
+			productName = DaysCalculatorTests;
+			productReference = 62EDA87225E2E39E00F3D40C /* DaysCalculatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62EDA87C25E2E39E00F3D40C /* DaysCalculatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62EDA88C25E2E39E00F3D40C /* Build configuration list for PBXNativeTarget "DaysCalculatorUITests" */;
+			buildPhases = (
+				62EDA87925E2E39E00F3D40C /* Sources */,
+				62EDA87A25E2E39E00F3D40C /* Frameworks */,
+				62EDA87B25E2E39E00F3D40C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62EDA87F25E2E39E00F3D40C /* PBXTargetDependency */,
+			);
+			name = DaysCalculatorUITests;
+			productName = DaysCalculatorUITests;
+			productReference = 62EDA87D25E2E39E00F3D40C /* DaysCalculatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62EDA85425E2E39B00F3D40C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = AlamShaikh;
+				TargetAttributes = {
+					62EDA85B25E2E39B00F3D40C = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					62EDA87125E2E39E00F3D40C = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 62EDA85B25E2E39B00F3D40C;
+					};
+					62EDA87C25E2E39E00F3D40C = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 62EDA85B25E2E39B00F3D40C;
+					};
+				};
+			};
+			buildConfigurationList = 62EDA85725E2E39B00F3D40C /* Build configuration list for PBXProject "DaysCalculator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62EDA85325E2E39B00F3D40C;
+			productRefGroup = 62EDA85D25E2E39B00F3D40C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62EDA85B25E2E39B00F3D40C /* DaysCalculator */,
+				62EDA87125E2E39E00F3D40C /* DaysCalculatorTests */,
+				62EDA87C25E2E39E00F3D40C /* DaysCalculatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62EDA85A25E2E39B00F3D40C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62EDA86C25E2E39D00F3D40C /* LaunchScreen.storyboard in Resources */,
+				62EDA86925E2E39D00F3D40C /* Assets.xcassets in Resources */,
+				62EDA89325E2E6DA00F3D40C /* DateView.xib in Resources */,
+				62EDA86725E2E39B00F3D40C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62EDA87025E2E39E00F3D40C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62EDA87B25E2E39E00F3D40C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62EDA85825E2E39B00F3D40C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629DF6EB25E305E1008F7CFB /* DateValidator.swift in Sources */,
+				62EDA86425E2E39B00F3D40C /* ViewController.swift in Sources */,
+				62EDA86025E2E39B00F3D40C /* AppDelegate.swift in Sources */,
+				629DF6E925E2FBF6008F7CFB /* Utility.swift in Sources */,
+				629DF6E625E2F3FB008F7CFB /* DateViewModel.swift in Sources */,
+				62EDA89125E2E6C700F3D40C /* DateView.swift in Sources */,
+				62EDA86225E2E39B00F3D40C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62EDA86E25E2E39E00F3D40C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62EDA87725E2E39E00F3D40C /* DaysCalculatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62EDA87925E2E39E00F3D40C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62EDA88225E2E39E00F3D40C /* DaysCalculatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62EDA87425E2E39E00F3D40C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62EDA85B25E2E39B00F3D40C /* DaysCalculator */;
+			targetProxy = 62EDA87325E2E39E00F3D40C /* PBXContainerItemProxy */;
+		};
+		62EDA87F25E2E39E00F3D40C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62EDA85B25E2E39B00F3D40C /* DaysCalculator */;
+			targetProxy = 62EDA87E25E2E39E00F3D40C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		62EDA86525E2E39B00F3D40C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62EDA86625E2E39B00F3D40C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		62EDA86A25E2E39D00F3D40C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				62EDA86B25E2E39D00F3D40C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		62EDA88425E2E39E00F3D40C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62EDA88525E2E39E00F3D40C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62EDA88725E2E39E00F3D40C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DaysCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alam.DaysCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62EDA88825E2E39E00F3D40C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DaysCalculator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alam.DaysCalculator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62EDA88A25E2E39E00F3D40C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DaysCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alam.DaysCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaysCalculator.app/DaysCalculator";
+			};
+			name = Debug;
+		};
+		62EDA88B25E2E39E00F3D40C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DaysCalculatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alam.DaysCalculatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DaysCalculator.app/DaysCalculator";
+			};
+			name = Release;
+		};
+		62EDA88D25E2E39E00F3D40C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DaysCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alam.DaysCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DaysCalculator;
+			};
+			name = Debug;
+		};
+		62EDA88E25E2E39E00F3D40C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DaysCalculatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.alam.DaysCalculatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DaysCalculator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62EDA85725E2E39B00F3D40C /* Build configuration list for PBXProject "DaysCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62EDA88425E2E39E00F3D40C /* Debug */,
+				62EDA88525E2E39E00F3D40C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62EDA88625E2E39E00F3D40C /* Build configuration list for PBXNativeTarget "DaysCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62EDA88725E2E39E00F3D40C /* Debug */,
+				62EDA88825E2E39E00F3D40C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62EDA88925E2E39E00F3D40C /* Build configuration list for PBXNativeTarget "DaysCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62EDA88A25E2E39E00F3D40C /* Debug */,
+				62EDA88B25E2E39E00F3D40C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62EDA88C25E2E39E00F3D40C /* Build configuration list for PBXNativeTarget "DaysCalculatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62EDA88D25E2E39E00F3D40C /* Debug */,
+				62EDA88E25E2E39E00F3D40C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62EDA85425E2E39B00F3D40C /* Project object */;
+}
